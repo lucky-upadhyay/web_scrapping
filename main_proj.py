@@ -24,6 +24,7 @@ for row in column_data[1:]:
     #print(row_data)
     individual_row_data=[data.text.strip() for data in row_data]
     #print(individual_row_data)
+    
     length=len(df)
     df.loc[length]=individual_row_data
     #print(df)
