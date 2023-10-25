@@ -6,4 +6,5 @@ page=requests.get(url)
 soup=BeautifulSoup(page.text,'html.parser')
 #print(soup)
 soup.find('div')
+
 print(soup.find('th').text.strip())
